@@ -6,8 +6,7 @@
 #   pull request        -> tests and smoke test only, nothing is pushed
 #
 # Needs two repository secrets (Settings -> Secrets and variables -> Actions):
-#   DOCKERHUB_USERNAME  your Docker Hub user (isaka12)
-#   DOCKERHUB_TOKEN     a Docker Hub access token with Read & Write scope (not your password)
+
 #
 # The .env file with the Sightengine keys is never committed (.gitignore) and never
 # copied into the image (.dockerignore); keys are mounted at run time instead.
